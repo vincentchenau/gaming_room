@@ -1,0 +1,103 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          
+          <a class="nav-link active" aria-current="page" href="/gaming-room"><mat-icon> forum</mat-icon>Submit Bug Report or Feedback</a>
+        </li>
+      </ul>
+    </div>
+    
+    <a class="btn btn-primary" href="/gaming-room"><mat-icon>person</mat-icon>Chris Cordova</a>
+  </div>
+</nav>
+
+<nav class="navbar navbar-light bg-light" style="box-shadow: 0px 2px 5px #888888;">
+  <div class="container-fluid">
+    <div class="row container-fluid">
+
+      <div class="col-5">
+        <div ngbDropdown class="d-inline-block">
+          <button class="btn btn-outline-secondary" id="dropdownBasic1" ngbDropdownToggle>Sydney Collective</button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <button ngbDropdownItem>Action - 1</button>
+            <button ngbDropdownItem>Another Action</button>
+            <button ngbDropdownItem>Something else is here</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-5">
+        <div ngbDropdown class="d-inline-block">
+          <button class="btn btn-outline-secondary" id="dropdownBasic2"  ngbDropdownToggle>DANIEL SAN</button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
+            <button ngbDropdownItem>Action - 1</button>
+            <button ngbDropdownItem>Another Action</button>
+            <button ngbDropdownItem>Something else is here</button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-2">
+        <button class="btn btn-outline-primary" ngbButton ><mat-icon>search</mat-icon></button>
+        <button class="btn btn-outline-success" ngbButton ><mat-icon>account_balance</mat-icon>Today's Banking</button>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<div class="row m-2 p-2">
+  <div class="col-2"></div>
+  <div class="col-5">
+    <h2>Gaming</h2>
+  </div>
+  <div class="col-5"><mat-icon>calendar_today</mat-icon>Tuesday,June 15th 2021</div>
+
+</div>
+
+<div class="card mx-auto" style="width: 70rem; box-shadow: 0px 0px 5px #888888;">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-1"><mat-icon style="font-size: 40px; color: #0d6efd;">control_point</mat-icon></div>
+      <div class="col-9">    
+        <a class="card-title" style="font-size: large;">Gaming Room</a>
+        <h6 class="card-subtitle mb-2 text-muted">Last Read Count At: Mon, Jun 14th 2021 10:12:25 pm</h6>
+      </div>
+      <div class="col-2"><mat-icon style="font-size: 6px; color: orange;">lens</mat-icon>Pending</div>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <div class="row">
+      <div class="col"><mat-list>
+        <mat-list-item> Machines Count Total </mat-list-item>
+        <mat-list-item> -- </mat-list-item>
+       </mat-list>
+      </div>
+      <div class="col"><mat-list>
+        <mat-list-item> CCU Count Total </mat-list-item>
+        <mat-list-item> -- </mat-list-item>
+       </mat-list>
+      </div>
+    </div>
+    <button class="btn-sm btn-outline-primary" mat-button (click)="openDialog()">Gaming Read</button>
+    <button class="btn-sm btn-outline-primary" >Cheques</button>
+    <button class="btn-sm btn-outline-primary" >Machines</button>
+    <button class="btn-sm btn-outline-secondary" disabled>CCU</button>
+    <button class="btn-sm btn-outline-secondary" disabled>Banking</button>
+    <button class="btn-sm btn-outline-primary">History</button>
+    <button class="btn-sm btn-outline-primary">Cheques History</button>
+  </div>
+</div>
+
+      
+    
+      
+
+
+
+
+
